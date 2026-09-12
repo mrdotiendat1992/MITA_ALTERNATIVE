@@ -1,2 +1,2 @@
-pyinstaller --noconsole --onefile --name supermita --icon mitapro.ico  cardsystem.py
+pyinstaller --noconsole --hidden-import=zk --hidden-import=zk.base --hidden-import=zk.attendance --hidden-import=zk.finger --hidden-import=zk.user --hidden-import=zk.zkconst --hidden-import=zk.ultils --onefile --name supermita --icon mitapro.ico  cardsystem.py
 pause

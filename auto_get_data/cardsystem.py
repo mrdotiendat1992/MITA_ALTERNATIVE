@@ -42,8 +42,8 @@ except ImportError:
 
 # ====== CẤU HÌNH ======
 LISTS_DEVICE_IP = [
-    "10.0.0.221", "10.0.0.222", "10.0.0.223", "10.0.0.224",
-    "10.0.0.225", "10.0.0.226", "10.0.0.227", "10.0.0.238"
+    "172.17.60.221", "172.17.60.22", "172.17.60.23", "172.17.60.24",
+    "172.17.60.25", "172.17.60.26", "172.17.60.27", "172.17.60.28"
 ]
 DEVICE_PORT = 4370
 TIMEOUT = 10
@@ -86,7 +86,7 @@ DB_CONFIG = {
     "server":   "172.16.60.100",
     "database": "MITACOSQL",
     "username": "IT",
-    "password": "Namthuan@2025#",
+    "password": ".<>N@mthu4n@123#",
     "table":    "Checkinout",
     "driver":   "ODBC Driver 17 for SQL Server",
 }
